@@ -1,39 +1,51 @@
-# MusicApp
+# Resume Builder Application
 
->  A Music Player developed using JavaScript, CSS, and HTML. Users can click the Forward play, Backward play, Playlist loop and Shuffle music buttons to change the songs.
- 
-## Live Demo
+![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react) ![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=javascript) ![Made-With-Material_UI](https://img.shields.io/badge/Made_with-Material_UI-informational?style=for-the-badge&logo=material-ui)
 
-[Live Demo Link](https://samirpaulb.github.io/music) :point_left:
+1. **React** for Frontend and **Express** as Middleware.
+2. **Material UI** and **React-Bootstrap** for styling.
 
-Landing Page:
-<a href="#" rel="Landing Page">![Landing Page](https://raw.githubusercontent.com/SamirPaulb/assets/main/music/2.png)</a>
+## _UPDATE : GOOGLE SIGN-IN & SESSION MANAGEMENT FEATURES ADDED_
 
+## Quick Start
 
-Music List:
-<a href="#" rel="Music List">![Music List](https://raw.githubusercontent.com/SamirPaulb/assets/main/music/1.png)</a>
+Clone the repository and do following:
 
+```bash
+# Install dependencies for server
+npm install
 
-Mobile View:
-<p align="center">
-<a href="#" rel="Mobile View"><img src="https://raw.githubusercontent.com/SamirPaulb/assets/main/music/mobile-view.webp"></a>
-</p>
+# Install dependencies for client
+npm run client-install
 
----
+# Run the client & server with concurrently
+npm run dev
 
-## Embed MusicApp
+# Run the Express server only
+npm run server
 
-Embed this music player to any website:
+# Run the React client only
+npm run client
 
-```html
-<iframe src="https://samirpaulb.github.io/music/embed"
-	title="Embed MusicApp"
-	frameborder="0"
-	loading="lazy"
-	marginheight="0"
-	marginwidth="0"
-	width="100%"
-	height="223"
-	scrolling="no">
-</iframe>
+# Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
+
+**Note - If you wish to change the server port number from 5000 to say port 4000, then do the following small change in package.json file of the client folder.**
+
+<div align="center">
+  <img src="./proxy-change.png" width=100%/>
+</div>
+
+
+## Demo :
+
+Click [this](https://youtu.be/JkcP06CYVpc) link to see the demo.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/girishgr8/Resume-Builder/blob/master/LICENSE) file for details.
+
+## Credits :
+
+Referred to [this](https://www.sitepoint.com/google-auth-react-express/) for setting up Google Sign-in
+
+<h3 align="center"><b>Developed with :heart: by Girish Thatte</b></h1>
